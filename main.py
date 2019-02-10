@@ -16,7 +16,7 @@ def homepage():
     return render_template("homepage.html")
 
 @app.route("/skrible")
-def skrible():
+def skrible(): 
     return render_template("skrible.html")
 
 
